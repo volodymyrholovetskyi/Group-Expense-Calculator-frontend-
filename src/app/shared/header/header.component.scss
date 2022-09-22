@@ -1,0 +1,52 @@
+@import "../../../assets/styles/colors";
+
+.nav-scroll {
+  position: relative;
+  background-color: black;
+}
+
+nav {
+  text-transform: uppercase;
+  z-index: 15;
+  a {
+    color: $white;
+    transition: 0.3s color;
+
+    span {
+      color: $light-blue;
+    }
+  }
+
+  .navbar-toggler {
+    padding: 10px;
+    transition: color 0.3s;
+  }
+
+  .navbar-toggler:hover {
+    color: $white;
+  }
+
+  a:hover {
+    color: $light-blue;
+  }
+
+  .fa-bars {
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .fa-people-group {
+    font-size: 22px;
+  }
+
+  .sign-up {
+    margin-left: 30px;
+  }
+}
